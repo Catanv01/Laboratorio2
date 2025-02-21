@@ -1,0 +1,36 @@
+ul li{
+    display: inline;
+    margin: 0 140px;
+}
+.Inicio{
+    display: flex;
+    border-bottom: 3px solid black;
+}
+#Izq{
+    width: 70%;
+    text-align: justify;
+}
+#Der{
+    padding-left: 120px;
+    width: 30%;
+    font-size: 140%;
+}
+.education{
+    background-color: white;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 3px solid black;
+    padding-bottom: 25px;
+}
+.elemento{
+    padding: 25px;
+    width: 50%;
+    text-align: justify;
+}
+.contenedor{
+    display: flex;
+}
+.borde{
+    border-left: 3px solid black;
+}
