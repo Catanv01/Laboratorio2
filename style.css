@@ -1,10 +1,10 @@
 ul li{
     display: inline;
-    margin: 0 140px;
+    margin: 0 90px;
 }
 .Inicio{
     display: flex;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #999;
 }
 #Izq{
     width: 70%;
@@ -20,7 +20,7 @@ ul li{
     width: 100%;
     padding-left: 50px;
     padding-right: 50px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #999;
     padding-bottom: 25px;
 }
 .elemento{
@@ -32,5 +32,68 @@ ul li{
     display: flex;
 }
 .borde{
-    border-left: 3px solid black;
+    border-left: 3px solid #999;
+}
+.skills{
+    display: flex;
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+    border-bottom: 3px solid #999;
+    padding-bottom: 40px;
+}
+.skill_izq{
+    width: 50%;
+    padding-right: 33px;
+}
+.skill_der{
+    border-left: 3px solid #999;
+    padding-left: 30px;
+    width: 50%;
+}
+.skill{
+    justify-content: space-between;
+
+}
+.progress{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #999;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+.progress::before{
+    content: '';
+    position: absolute;
+    width: var(--wth);
+    height: 100%;
+    background: black;
+}
+.goals{
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    
+}
+.cert{
+    width: 50%;
+    display: flex;
+    text-align: justify;
+    border-left: 3px solid #999;
+}
+.c_izq{
+    width: 45%;
+    padding: 25px;
+}
+.c_der{
+    width: 45%;
+    padding: 25px;
+}
+.nombres{
+    display: flex;
+}
+#lan{
+    padding-right: 42%;
 }
