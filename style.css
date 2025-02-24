@@ -15,11 +15,16 @@ ul li{
     width: 30%;
     font-size: 140%;
 }
+#cargo{
+    padding-left: 15px;
+    padding-top: 4px;
+    background-color: #ffa9cd;
+    height: 16%;
+}
 .education{
     background-color: white;
-    width: 100%;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
     border-bottom: 3px solid #999;
     padding-bottom: 25px;
 }
@@ -30,15 +35,18 @@ ul li{
 }
 .contenedor{
     display: flex;
+    width: 100%;
 }
 .borde{
+    width: 50%;
     border-left: 3px solid #999;
 }
 .skills{
     display: flex;
     width: 100%;
     position: relative;
-    padding: 0 20px;
+    margin: 0px;
+    padding: 0 0px;
     border-bottom: 3px solid #999;
     padding-bottom: 40px;
 }
@@ -75,6 +83,8 @@ ul li{
     display: flex;
     width: 100%;
     padding: 0 20px;
+    border-bottom: 3px solid #999;
+    padding-bottom: 30px;
     
 }
 .cert{
@@ -96,4 +106,25 @@ ul li{
 }
 #lan{
     padding-right: 42%;
+}
+.icons{
+    justify-content: center;
+    text-align: center;
+}
+.icons ul li .fa{
+    margin-top: 17px;
+    font-size: 150%;
+}
+.icons ul li{
+    list-style: none;
+    float: left;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #999;
+
 }
