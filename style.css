@@ -1,12 +1,14 @@
 ul li{
     display: inline;
-    margin: 0 90px;
+    margin-left: 10px;
+    margin-right: 170px;
 }
 .Inicio{
     display: flex;
     border-bottom: 3px solid #999;
 }
 #Izq{
+    padding-left: 50px;
     width: 70%;
     text-align: justify;
 }
@@ -22,14 +24,16 @@ ul li{
     height: 16%;
 }
 .education{
+    padding-top: 25px;
     background-color: white;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-bottom: 3px solid #999;
     padding-bottom: 25px;
 }
 .elemento{
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     width: 50%;
     text-align: justify;
 }
@@ -41,6 +45,18 @@ ul li{
     width: 50%;
     border-left: 3px solid #999;
 }
+#t_edu{
+    padding-left: 25px;
+}
+#t_exp{
+    padding-left: 25px;
+}
+#t_skill{
+    padding-left: 50px;
+}
+.habilidades{
+    padding-top: 25px;
+}
 .skills{
     display: flex;
     width: 100%;
@@ -51,10 +67,12 @@ ul li{
     padding-bottom: 40px;
 }
 .skill_izq{
+    padding-left: 50px;
     width: 50%;
     padding-right: 33px;
 }
 .skill_der{
+    padding-right: 50px;
     border-left: 3px solid #999;
     padding-left: 30px;
     width: 50%;
@@ -79,41 +97,53 @@ ul li{
     height: 100%;
     background: black;
 }
+#lan{
+    padding-left: 50px;
+}
+.logros{
+    padding-top: 25px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #999;
+}
 .goals{
     display: flex;
     width: 100%;
-    padding: 0 20px;
-    border-bottom: 3px solid #999;
-    padding-bottom: 30px;
+    margin: 0px;
+    position: relative;
+    padding: 0 0px;
     
 }
 .cert{
-    width: 50%;
-    display: flex;
     text-align: justify;
+    display: flex;
+    padding-right: 50px;
     border-left: 3px solid #999;
+    padding-left: 30px;
+    width: 50%;
 }
 .c_izq{
     width: 45%;
-    padding: 25px;
 }
 .c_der{
     width: 45%;
-    padding: 25px;
+    padding-left: 50px;
 }
 .nombres{
     display: flex;
 }
 #lan{
-    padding-right: 42%;
+    padding-right: 37%;
 }
-.icons{
-    justify-content: center;
-    text-align: center;
+#hobbies{
+    padding-left: 50px;
 }
+
 .icons ul li .fa{
     margin-top: 17px;
     font-size: 150%;
+}
+.icons{
+    margin-bottom: 10%;
 }
 .icons ul li{
     list-style: none;
@@ -121,10 +151,12 @@ ul li{
     width: 60px;
     height: 60px;
     line-height: 60px;
-    margin: 0 10px;
+    margin-left: 0;
+    margin-right: 11%;
     text-align: center;
     cursor: pointer;
     border-radius: 50%;
     border: 5px solid #999;
+    
 
 }
