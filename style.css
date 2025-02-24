@@ -1,7 +1,7 @@
 ul li{
     display: inline;
     margin-left: 10px;
-    margin-right: 170px;
+    margin-right: 150px;
 }
 .Inicio{
     display: flex;
@@ -152,7 +152,7 @@ ul li{
     height: 60px;
     line-height: 60px;
     margin-left: 0;
-    margin-right: 11%;
+    margin-right: 10%;
     text-align: center;
     cursor: pointer;
     border-radius: 50%;
